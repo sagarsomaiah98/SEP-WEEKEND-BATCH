@@ -1,0 +1,11 @@
+Component testing scenario's on web page1 –
+
+Enter invalid user id and verify if any user-friendly warning pop up is shown to the end user.
+Enter invalid user id and password and click on 'reset' and verify if the data entered in the text fields user-id and password are cleared out.
+Enter the valid user name and password and click on 'Login' button.
+Component testing scenario's on web page2 –
+
+Verify if the "Welcome to manager page of guru99 bank" message is being displayed on the home page.
+Verify if all the link on the left side of the web page are clickable.
+Verify if the manager id is being displayed in the center of the home page.
+Verify the presence of the 3 different images on the home page as per the diagram.
