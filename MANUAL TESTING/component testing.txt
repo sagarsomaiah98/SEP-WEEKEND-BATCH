@@ -5,7 +5,7 @@ Enter invalid user id and password and click on 'reset' and verify if the data e
 Enter the valid user name and password and click on 'Login' button.
 Component testing scenario's on web page2 –
 
-Verify if the "Welcome to manager page of guru99 bank" message is being displayed on the home page.
+Verify if the "Welcome to manager page of hdfc bank" message is being displayed on the home page.
 Verify if all the link on the left side of the web page are clickable.
 Verify if the manager id is being displayed in the center of the home page.
 Verify the presence of the 3 different images on the home page as per the diagram.
