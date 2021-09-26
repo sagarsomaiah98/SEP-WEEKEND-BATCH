@@ -12,12 +12,12 @@ public class Try_Catch_Example {
 		stud[2]="john";
 		
 		try {
-		System.out.println(stud[2]);
+		System.out.println(stud[3]);
 		
 		}
 		catch(Exception e1) {
 			
-			//e1.printStackTrace();
+			e1.printStackTrace();
 			
 			System.out.println(" in the catch block");
 		}

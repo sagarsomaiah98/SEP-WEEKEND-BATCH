@@ -1,22 +1,16 @@
 package com.janbask.exceptionExamples;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 public class FileNotFoundExceptionExample {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
 		
-		
-		try {
-            int a = 30;
-            int b = 0;
-            int c = a/b;  // cannot divide by zero
-            System.out.println ("Result = " + c);
-        }
-        catch(Exception e) {
-        	
-        	e.printStackTrace();
-            System.out.println ("Can't divide a number by 0");
-        }
+	FileInputStream fs = new FileInputStream("C:/Test.tx");
+	
+	System.out.println("File not found");
 
 	}
 

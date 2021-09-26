@@ -5,20 +5,21 @@ public class Break_Keyword {
 		
 		
 		
-		int search= 50;
+		int search= 10;
 		
 		
 		for( int i=0;i< 20;i++) {
 			
+			
+			if(search==i)
+				break;
+				
+			
 			System.out.println(" i values --  "+i );
 			
-			if( search==i) 
-			{
-			System.out.println(" search value found == "+i);
-			break;
-			}
-			
 		}
+			
+		
 		
 		
 	}

@@ -13,7 +13,7 @@ public class String_Functions {
 		System.out.println(value.substring(0, 2));
 		System.out.println(value.toLowerCase());
 		System.out.println(value.toUpperCase());
-		System.out.println(value.indexOf('l'));
+		System.out.println(value.indexOf('L'));
 		
 
 	}
