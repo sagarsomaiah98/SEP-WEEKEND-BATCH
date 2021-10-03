@@ -19,14 +19,16 @@ public class HM {
 	   
 	 //  System.out.println(map);
 	   
-	   System.out.println(map.get(1));
+	  // System.out.println(map.get(3));
+	 //  System.out.println(map);
 	   
-	   
+	
 	       
 		
 		  System.out.println("Iterating Hashmap..."); 
 		  for(Map.Entry m : map.entrySet()){
-			  System.out.println(m.getKey()+" "+m.getValue()); }
+			  System.out.println(m.getKey()+" "+m.getValue()); 
+		  }		  }
 		  
 	}
-}
+

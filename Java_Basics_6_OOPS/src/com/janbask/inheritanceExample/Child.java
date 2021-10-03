@@ -23,8 +23,12 @@ public void factory() {
 		Child c= new Child();
 		c.car();
 		c.factory();
-		c.bike();
-		c.house();
+		c.bike();//methods belong to parent
+		c.house(); //methods belong to parent
+		
+		System.out.println(c.age);
+		System.out.println(c.name);
+		
 		
 		
 		

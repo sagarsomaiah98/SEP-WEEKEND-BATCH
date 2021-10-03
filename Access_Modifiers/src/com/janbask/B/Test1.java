@@ -1,5 +1,6 @@
 package com.janbask.B;
 
+
 import com.janbask.A.Protected_Example;
 
 public class Test1 extends Protected_Example {
@@ -10,7 +11,7 @@ public class Test1 extends Protected_Example {
 		
 		/*
 		 * Default_Example d = new Default_Example(); d.method1();
-		 * System.out.println(d.age); System.out.println(d.name)
+		 * System.out.println(d.age); System.out.println(d.name);
 		 */
 
 		Test1 p= new Test1();

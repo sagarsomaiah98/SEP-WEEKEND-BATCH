@@ -1,6 +1,6 @@
 package com.janbask.A;
 
-public  class Private_Example {
+public   class Private_Example {
 	//global variables
 	private int age=23;
 	private String name="Andrew";
